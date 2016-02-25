@@ -1,5 +1,5 @@
 Parse.Push.send({
-  channels: ['test-channel'],
+  channels: ['Giants'],
   data: {
     alert: 'Test',
     badge: 1,
