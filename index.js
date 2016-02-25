@@ -13,7 +13,7 @@ if (!databaseUri) {
 var api = new ParseServer({
   databaseURI: databaseUri || 'mongodb://heroku_1vmjzbkl:vob985c4i5miif3entjqgcd6ho@ds055935.mongolab.com:55935/heroku_1vmjzbkl',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'myAppId70',
+  appId: process.env.APP_ID || '8421',
   masterKey: process.env.MASTER_KEY || '973988555' //Add your master key here. Keep it secret!
 });
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
